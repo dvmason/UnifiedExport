@@ -2,7 +2,7 @@ as yet unclassified
 testUnifyArrayIntegerWithAnotherArrayInteger
 	"comment stating purpose of message"
 	| typeInferencer aArrayOfInteger a2ndArrayOfInteger |
-	typeInferencer := TypeInferencer new.
+	typeInferencer := UETypeInferencer new.
 	aArrayOfInteger := UEArray new.
 	aArrayOfInteger argType: UEInteger.
 	a2ndArrayOfInteger := UEArray new.
