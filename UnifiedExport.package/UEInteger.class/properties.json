@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UEType",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEInteger",
+	"type" : "normal"
+}
