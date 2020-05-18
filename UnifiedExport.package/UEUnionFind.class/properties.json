@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "UnifiedExport-Tests",
+	"super" : "UEAbstractUnionFind",
+	"category" : "UnifiedExport-Utility",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"typeInferencer"
+		"rank"
 	],
-	"name" : "TestUnifyIntegerTpes",
+	"name" : "UEUnionFind",
 	"type" : "normal"
 }

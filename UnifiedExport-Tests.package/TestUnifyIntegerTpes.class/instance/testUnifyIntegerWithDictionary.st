@@ -1,7 +1,6 @@
-as yet unclassified
+testing
 testUnifyIntegerWithDictionary
 	"comment stating purpose of message"
 
-	| typeInferencer |
-	typeInferencer := UETypeInferencer new.
-	self assert: (typeInferencer unify: UEInteger with: UEBoolean) equals: false.
+
+	self deny: (typeInferencer unify: UEType integer with: (UEDictionary of: UEType integer)).

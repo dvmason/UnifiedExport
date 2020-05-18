@@ -1,0 +1,3 @@
+sets support
+bumpRank
+	self subclassResponsibility

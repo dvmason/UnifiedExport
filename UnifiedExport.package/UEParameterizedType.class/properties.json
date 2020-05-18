@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "UnifiedExport-Tests",
+	"super" : "UEType",
+	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"typeInferencer"
+		"argType"
 	],
-	"name" : "TestUnifyIntegerTpes",
+	"name" : "UEParameterizedType",
 	"type" : "normal"
 }

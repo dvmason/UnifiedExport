@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "UEParameterizedType",
+	"super" : "UEType",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "UEArray",
+	"name" : "UEVariable",
 	"type" : "normal"
 }

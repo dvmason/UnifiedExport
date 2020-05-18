@@ -1,8 +1,10 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UEUnionFind",
 	"category" : "UnifiedExport-Types",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"boolean"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

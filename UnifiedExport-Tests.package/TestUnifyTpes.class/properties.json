@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"typeInferencer"
+	],
 	"name" : "TestUnifyTpes",
 	"type" : "normal"
 }
