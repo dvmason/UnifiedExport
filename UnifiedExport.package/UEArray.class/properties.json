@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UEType",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [
+		"argType"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEArray",
+	"type" : "normal"
+}
