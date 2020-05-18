@@ -1,7 +1,5 @@
-as yet unclassified
+testing
 testUnifyIntegerWithReal
 	"comment stating purpose of message"
 
-	| typeInferencer |
-	typeInferencer := UETypeInferencer new.
-	self assert: (typeInferencer unify: UEInteger with: UEReal) equals: false.
+	self deny: (typeInferencer unify: UEType integer with: UEType real).

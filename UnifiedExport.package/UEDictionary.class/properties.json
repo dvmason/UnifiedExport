@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "UEType",
+	"super" : "UEParameterizedType",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [
 		"argType"
