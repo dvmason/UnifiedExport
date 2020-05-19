@@ -5,5 +5,5 @@ testDepth2
 	u3 union: u4.
 	u4 union: u5.
 	u5 union: u6.
-	self assert: u1 parent equals: nil.
-	self assert: u5 parent parent equals: nil.
+	self assert: u1 depth equals: 1.
+	self assert: u5 depth equals: 2.
