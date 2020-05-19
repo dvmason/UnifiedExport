@@ -1,0 +1,3 @@
+accessing
+greaterRankThan: other
+	^ true.
