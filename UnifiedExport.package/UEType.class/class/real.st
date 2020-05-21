@@ -1,3 +1,3 @@
 canonical values
 real
-	^ UEReal new
+	^ real ifNil: [ real := self new tag: #real ]

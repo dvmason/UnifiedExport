@@ -1,13 +1,17 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DaveMason 5/21/2020 13:04",
 	"super" : "UEUnionFind",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [
-		"boolean"
+		"boolean",
+		"integer",
+		"real"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"tag"
+	],
 	"name" : "UEType",
 	"type" : "normal"
 }

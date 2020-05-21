@@ -1,0 +1,1 @@
+I am an array type. My key type is integer, and the element type is parameterized.

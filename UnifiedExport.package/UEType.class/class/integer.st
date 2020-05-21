@@ -1,3 +1,3 @@
 canonical values
 integer
-	^ UEInteger new
+	^ integer ifNil: [ integer := self new tag: #integer ]
