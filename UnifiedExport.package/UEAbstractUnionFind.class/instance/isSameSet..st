@@ -1,3 +1,3 @@
 sets support
-sameSet: other
+isSameSet: other
 	^ self find == other find

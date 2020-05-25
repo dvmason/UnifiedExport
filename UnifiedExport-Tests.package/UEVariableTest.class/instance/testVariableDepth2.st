@@ -3,7 +3,7 @@ testVariableDepth2
 	| v1 v2 c1 |
 	v1 := UEVariable new.
 	v2 := UEVariable new.
-	c1 := UEType integer.
+	c1 := UESimpleType integer.
 	typeInferencer unify: v1 with: c1.
 	typeInferencer unify: v2 with: v1.
 	v1 find. v2 find. c1 find.

@@ -3,4 +3,4 @@ testUnifyIntegerWithDictionary
 	"comment stating purpose of message"
 
 
-	self denyUnifiable: UEType integer with: (UEDictionary of: UEType integer).
+	self denyUnifiable: UESimpleType integer with: (UEDictionary of: UESimpleType integer to: UESimpleType integer).
