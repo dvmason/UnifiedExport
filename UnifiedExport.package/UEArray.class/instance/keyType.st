@@ -1,0 +1,3 @@
+accessing
+keyType
+	^ UEType integer

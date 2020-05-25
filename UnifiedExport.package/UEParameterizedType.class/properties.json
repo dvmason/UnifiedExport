@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DaveMason 5/21/2020 12:11",
 	"super" : "UEType",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"argType"
+		"valueType"
 	],
 	"name" : "UEParameterizedType",
 	"type" : "normal"

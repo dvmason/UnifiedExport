@@ -1,3 +1,3 @@
 instance creation
 of: anUEType
-	^ self new argType: anUEType
+	^ self new valueType: anUEType

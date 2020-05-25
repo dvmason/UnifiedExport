@@ -1,3 +1,3 @@
 canonical values
 boolean
-	^ boolean ifNil: [ boolean := UEBoolean new ]
+	^ boolean ifNil: [ boolean := self new tag: #boolean ]
