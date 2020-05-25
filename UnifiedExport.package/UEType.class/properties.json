@@ -9,9 +9,7 @@
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"tag"
-	],
+	"instvars" : [ ],
 	"name" : "UEType",
 	"type" : "normal"
 }
