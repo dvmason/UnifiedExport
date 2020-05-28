@@ -1,16 +1,15 @@
 {
-	"commentStamp" : "DaveMason 5/21/2020 13:00",
+	"commentStamp" : "",
 	"super" : "UEParameterizedType",
 	"category" : "UnifiedExport-Types",
-	"classinstvars" : [
-		"argType"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"keyType",
-		"valueType"
+		"argTypes",
+		"targetType",
+		"resultType"
 	],
-	"name" : "UEDictionary",
+	"name" : "UEMessage",
 	"type" : "normal"
 }

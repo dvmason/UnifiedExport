@@ -1,3 +1,3 @@
 accessing
 valueType: aUEType
-	valueType := aUEType.
+	resultType := aUEType.
