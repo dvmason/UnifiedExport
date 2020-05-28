@@ -1,3 +1,3 @@
 accessing
-valueType
+resultType
 	^ resultType

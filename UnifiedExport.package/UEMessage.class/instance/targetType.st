@@ -1,3 +1,3 @@
 accessing
-keyType
+targetType
 	^ targetType
