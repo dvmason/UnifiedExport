@@ -8,7 +8,8 @@
 	"instvars" : [
 		"argTypes",
 		"targetType",
-		"resultType"
+		"resultType",
+		"selector"
 	],
 	"name" : "UEMessage",
 	"type" : "normal"
