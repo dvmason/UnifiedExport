@@ -14,7 +14,7 @@ testUnifyDictionary
 	self assertUnifiable: v with: d3.
 	self denyUnifiable: v with: (UEDictionary of: UESimpleType integer to: UESimpleType integer).
 	self denyUnifiable: v with: (UEArray of: UESimpleType boolean).
-	self assert: v valueType find equals: UESimpleType boolean.
-	self assert: v keyType find equals: UESimpleType integer.
-	self denyUnifiable: v keyType with: UESimpleType boolean.
-	self assertUnifiable: v keyType with: UESimpleType integer.
+	self assert: v find valueType find equals: UESimpleType boolean.
+	self assert: v find keyType find equals: UESimpleType integer.
+	self denyUnifiable: v find keyType find with: UESimpleType boolean.
+	self assertUnifiable: v find keyType find with: UESimpleType integer.

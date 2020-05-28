@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "UEParameterizedType",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"argTypes",
+		"targetType",
+		"resultType"
+	],
+	"name" : "UEMessage",
+	"type" : "normal"
+}
