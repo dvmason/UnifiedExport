@@ -1,3 +1,9 @@
 initialization
 initialize
-	typeMap := WeakKeyDictionary new. " this should never be iterated. It's weak because its keys - classes, methods, etc. may be garbage collected at some point "
+	classes := IdentitySet new.
+	methods := IdentitySet new.
+	selectors := Set new.
+	typeChecker := UETypeChecker new transpiler: self.
+	typeMap := typeChecker typeMap.
+	moreToProcess := false.
+	

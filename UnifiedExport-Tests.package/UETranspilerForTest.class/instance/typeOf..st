@@ -1,3 +1,3 @@
 private
 typeOf: anObject
-	^ typeMap at: anObject ifAbsent: [ nil ]
+	^ typeMap at: anObject ifPresent: [: t | t find ]
