@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "DaveMason 5/29/2020 19:46",
+	"super" : "Object",
+	"category" : "UnifiedExport-Transpiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"typeMap",
+		"typeChecker",
+		"classes",
+		"methods",
+		"selectors",
+		"moreToProcess"
+	],
+	"name" : "UETranspiler",
+	"type" : "normal"
+}

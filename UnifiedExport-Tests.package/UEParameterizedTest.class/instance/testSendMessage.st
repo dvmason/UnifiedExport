@@ -1,6 +1,6 @@
 testing
 testSendMessage
-	| m1 m2 m3 m4 v1 v2 result |
+	| m1 v1 v2 result |
 	m1 := UEMessage selector: #foo:.
 	v1 := UEVariable new.
 	v2 := UEVariable new.
