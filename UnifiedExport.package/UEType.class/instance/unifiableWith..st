@@ -1,3 +1,3 @@
 type unification
-isUnifiableWith: aUEType
+unifiableWith: aUEType
 	^ self subclassResponsibility

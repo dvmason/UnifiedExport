@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 5/30/2020 07:49",
+	"super" : "Error",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UETypeNotUnifiable",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
 type unification
-isUnifiableWith: aUEType
+unifiableWith: aUEType
 	" I have rules... all my subclasses should let me check first "
 	^ self shouldBeImplemented

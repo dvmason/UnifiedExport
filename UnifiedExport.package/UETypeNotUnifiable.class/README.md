@@ -1,0 +1,1 @@
+I am thrown when an attempt is made to unify 2 types that are not unifiable.

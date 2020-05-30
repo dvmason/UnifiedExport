@@ -1,9 +1,9 @@
 type unification
 isParametersUnifiableWith: aUEType
-	(targetType isUnifiableWith: aUEType targetType) ifFalse: [ ^ false ].
-	(resultType isUnifiableWith: aUEType resultType) ifFalse: [ ^ false ].
+	(targetType unifiableWith: aUEType targetType) ifFalse: [ ^ false ].
+	(resultType unifiableWith: aUEType resultType) ifFalse: [ ^ false ].
 	(argTypes size == aUEType argTypes size) ifFalse: [ ^ false ].
 	argTypes with: aUEType argTypes do: [: mine : other |
-		(mine isUnifiableWith: other) ifFalse: [ ^ false ].
+		(mine unifiableWith: other) ifFalse: [ ^ false ].
 	].
 	^ true
