@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "UETypeTests",
-	"category" : "UnifiedExport-Tests",
+	"super" : "TestCase",
+	"category" : "UnifiedExport-Tests-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"typeInferencer"
+	],
 	"name" : "UETypeTest",
 	"type" : "normal"
 }

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "UETypeTests",
-	"category" : "UnifiedExport-Tests",
+	"super" : "UETypeTest",
+	"category" : "UnifiedExport-Tests-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

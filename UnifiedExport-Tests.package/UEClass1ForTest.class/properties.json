@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 5/29/2020 19:54",
+	"super" : "Object",
+	"category" : "UnifiedExport-Tests-Transpiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEClass1ForTest",
+	"type" : "normal"
+}
