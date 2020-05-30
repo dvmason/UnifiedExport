@@ -1,4 +1,6 @@
 type unification
 unifiableWith: aUEType
-	" I have rules... all my subclasses should let me check first "
-	^ self shouldBeImplemented
+	(self isSameSet: aUEType) ifTrue: [ ^ self ].
+	aUEType class == self class ifFalse: [ ^ self notUnifiable ].
+	self methodsUnifiableWith: aUEType.
+	aUEType methodsUnifiableWith: self.

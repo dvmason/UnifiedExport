@@ -6,4 +6,5 @@ unifyWith: aUEType
 	argTypes with: aUEType argTypes do: [: mine : other |
 		mine unifyWith: other.
 	].
+	super unifyWith: aUEType.
 	^ self union: aUEType

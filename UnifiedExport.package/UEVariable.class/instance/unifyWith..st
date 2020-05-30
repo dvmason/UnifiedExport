@@ -1,4 +1,4 @@
 type unification
-unifyWith: aUEVariable 
-	self unifiableWith: aUEVariable.
-	^ self union: aUEVariable
+unifyWith: aUEType 
+	self unifiableWith: aUEType.
+	^ self union: aUEType
