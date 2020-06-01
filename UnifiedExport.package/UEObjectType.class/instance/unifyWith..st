@@ -1,3 +1,4 @@
 type unification
 unifyWith: aUEType
-	self shouldBeImplemented
+	self unifiableWith: aUEType.
+	^self union: aUEType.

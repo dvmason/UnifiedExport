@@ -1,5 +1,9 @@
 type unification
-methodsUnifiableWith: aUEType.
+methodsUnifiableWith: otherMethods
 	methods keysAndValuesDo: [: selector : message |
-		self shouldBeImplemented.		
+		(otherMethods at: selector) ifNil: [ ^false ] 
+			ifNotNil: [ :otherMessage |
+				(message unifiableWith: otherMessage) ifFalse: [ ^false ]
+			].
 	].
+	^true
