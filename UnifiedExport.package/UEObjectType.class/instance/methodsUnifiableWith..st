@@ -1,8 +1,7 @@
 type unification
 methodsUnifiableWith: otherMethods
 	methods keysAndValuesDo: [: selector : message |
-		(otherMethods at: selector) ifNil: [ ^false ] 
-			ifNotNil: [ :otherMessage |
+		otherMethods at: selector ifPresent: [ :otherMessage |
 				(message unifiableWith: otherMessage) ifFalse: [ ^false ]
 			].
 	].

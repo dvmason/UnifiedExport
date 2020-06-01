@@ -1,6 +1,3 @@
 accessing
 objectType
-	| ueObjectType |
-	ueObjectType := UEObjectType new.
-	self unifiableWith: ueObjectType.
-	^ueObjectType.
+	^ self unifyWith: UEObjectType new
