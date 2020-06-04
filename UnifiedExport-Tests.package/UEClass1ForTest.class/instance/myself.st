@@ -1,3 +1,3 @@
 accessing
-yourself
+myself
 	^ self

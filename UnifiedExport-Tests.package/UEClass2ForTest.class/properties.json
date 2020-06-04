@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UEClass1ForTest",
+	"category" : "UnifiedExport-Tests-Transpiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEClass2ForTest",
+	"type" : "normal"
+}

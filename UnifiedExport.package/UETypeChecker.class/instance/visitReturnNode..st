@@ -1,3 +1,3 @@
-visitor
+visiting
 visitReturnNode: aRBReturnNode 
-	methodType resultType: (aRBReturnNode value acceptVisitor: self)
+	methodType resultType: (super visitReturnNode: aRBReturnNode)

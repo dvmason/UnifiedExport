@@ -9,8 +9,8 @@ testSendMessage
 	result := v3 send: m1 with: { v2 }.
 	self assertSameSet: m1 resultType with: result.
 	self assertSameSet: m1 argTypes first with: v2.
-	self assertSameSet: m1 with: v3 find messages first.
-	self assertSameSet: m1 with: v1 find messages first.
+	self assertSameSet: m1 with: v3 find messages first first.
+	self assertSameSet: m1 with: v1 find messages first first.
 	self denySameSet: v1 with: v2.
 	self denySameSet: v1 with: result.
 	result := v3 send: (UEMessage selector: #bar:) with: { v2 }.

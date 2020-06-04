@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "DaveMason 5/29/2020 22:52",
-	"super" : "Object",
+	"super" : "RBProgramNodeVisitor",
 	"category" : "UnifiedExport-Transpiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
