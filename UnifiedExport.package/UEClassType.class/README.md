@@ -1,0 +1,1 @@
+I represent an object that is known to be a particular class.

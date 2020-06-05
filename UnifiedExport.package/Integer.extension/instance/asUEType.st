@@ -1,3 +1,0 @@
-*UnifiedExport
-asUEType
-	^ UESimpleType integer

@@ -2,4 +2,4 @@ testing
 testUnifyIntegerWithBoolean
 	"comment stating purpose of message"
 
-	self denyUnifiable: UESimpleType integer with: UESimpleType boolean.
+	self denyUnifiable: self integer with: self boolean.

@@ -1,0 +1,1 @@
+I have tests for various assumptions made in the type inference code about the structure of Union Find

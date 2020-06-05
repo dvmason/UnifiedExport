@@ -1,0 +1,1 @@
+I have tests for UEClassTyoe values

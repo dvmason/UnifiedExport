@@ -1,3 +1,0 @@
-accessing
-keyType
-	^ UESimpleType integer

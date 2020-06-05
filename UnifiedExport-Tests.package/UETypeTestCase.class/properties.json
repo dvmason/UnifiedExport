@@ -1,13 +1,16 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DaveMason 6/5/2020 10:25",
 	"super" : "TestCase",
 	"category" : "UnifiedExport-Tests-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"typeInferencer"
+		"typeInferencer",
+		"integer",
+		"boolean",
+		"real"
 	],
-	"name" : "UETypeTest",
+	"name" : "UETypeTestCase",
 	"type" : "normal"
 }

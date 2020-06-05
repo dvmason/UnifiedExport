@@ -8,7 +8,8 @@
 	"instvars" : [
 		"typeMap",
 		"transpiler",
-		"methodType"
+		"methodType",
+		"classMap"
 	],
 	"name" : "UETypeChecker",
 	"type" : "normal"

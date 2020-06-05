@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "UETypeTest",
+	"commentStamp" : "DaveMason 6/5/2020 10:26",
+	"super" : "UETypeTestCase",
 	"category" : "UnifiedExport-Tests-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],

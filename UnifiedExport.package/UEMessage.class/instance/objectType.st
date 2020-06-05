@@ -1,0 +1,3 @@
+accessing
+objectType
+	^ self shouldNotImplement

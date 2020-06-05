@@ -5,5 +5,5 @@ testUnaryInt
 	transpiler transpileMethod: method.
 	self assert: method
 		hasType: (UEMessage selector: #unaryInt
-											result: UESimpleType integer).
+											result: self integer).
 	" may not be right expectation... perhaps it should be unifiableWith rather than isSameSet "
