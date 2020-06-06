@@ -1,3 +1,3 @@
 accessing
 objectType
-	^ self subclassResponsibility
+	^ self union: (UEObjectType new addReference: self)

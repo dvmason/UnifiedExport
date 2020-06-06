@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 6/5/2020 17:05",
+	"super" : "UEUnionFind",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEUnifiable",
+	"type" : "normal"
+}

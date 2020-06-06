@@ -14,7 +14,7 @@ testUnifyDictionary
 	self assertUnifiable: v with: d3.
 	self denyUnifiable: v with: (UEDictionary of: self integer to: self integer).
 	self denyUnifiable: v with: (UEArray of: self boolean).
-	self assert: v find valueType find equals: self boolean.
-	self assert: v find keyType find equals: self integer.
-	self denyUnifiable: v find keyType find with: self boolean.
+	self assert: v find valueType find equals: self boolean find.
+	self assert: v find keyType find equals: self integer find.
+	self denyUnifiable: v find keyType find with: self boolean find.
 	self assertUnifiable: v find keyType find with: self integer.

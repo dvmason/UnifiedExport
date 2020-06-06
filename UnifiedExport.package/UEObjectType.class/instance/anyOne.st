@@ -1,0 +1,3 @@
+accessing
+anyOne
+	^ references anyOne

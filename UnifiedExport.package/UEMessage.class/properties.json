@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "DaveMason 5/29/2020 20:01",
-	"super" : "UEType",
+	"super" : "UEUnifiable",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,7 +8,8 @@
 	"instvars" : [
 		"argTypes",
 		"resultType",
-		"selector"
+		"selector",
+		"targetType"
 	],
 	"name" : "UEMessage",
 	"type" : "normal"

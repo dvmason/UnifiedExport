@@ -1,3 +1,3 @@
 accessing
 greaterRankThan: other
-	^ true
+	^ false

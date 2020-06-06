@@ -1,8 +1,8 @@
 type unification
-unifyWith: aUEType 
-	self unifiableWith: aUEType.
-	resultType unifyWith: aUEType resultType.
-	argTypes with: aUEType argTypes do: [: mine : other |
+unifyWith: aUEMessage 
+	self unifiableWith: aUEMessage.
+	resultType unifyWith: aUEMessage resultType.
+	argTypes with: aUEMessage argTypes do: [: mine : other |
 		mine unifyWith: other.
 	].
-	^ self union: aUEType
+	^ self union: aUEMessage

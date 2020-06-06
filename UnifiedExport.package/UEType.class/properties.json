@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "DaveMason 5/21/2020 13:04",
-	"super" : "UEUnionFind",
+	"super" : "UEUnifiable",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [
 		"boolean",

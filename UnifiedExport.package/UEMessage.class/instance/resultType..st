@@ -1,3 +1,3 @@
 type unification
-resultType: anUEType
-	resultType := resultType unifyWith: anUEType
+resultType: anUEClassType 
+	^ anUEClassType unifyWith: resultType.

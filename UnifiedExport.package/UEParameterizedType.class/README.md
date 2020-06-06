@@ -1,1 +1,0 @@
-I represent types that are dependent on other types.

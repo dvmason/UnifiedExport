@@ -1,4 +1,5 @@
 initialize-release
 initialize
 	super initialize.
-	methods := Dictionary new.
+	methods := IdentityDictionary new.
+	references := Set new.

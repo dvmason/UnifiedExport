@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 uETypeFor: anObject 
-	^ classMap at: anObject class ifAbsentPut: [ UEClassType for: anObject class ]
+	^ self uETypeForClass: anObject class

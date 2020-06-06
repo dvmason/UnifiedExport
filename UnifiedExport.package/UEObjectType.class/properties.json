@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"methods"
+		"methods",
+		"references"
 	],
 	"name" : "UEObjectType",
 	"type" : "normal"
