@@ -1,4 +1,4 @@
 type unification
 checkUnifiableWith: aUEType
-	aUEType class == self class ifFalse: [ ^ self notUnifiable ].
+	super checkUnifiableWith: aUEType.
 	classRef == aUEType classRef ifFalse: [ ^ self notUnifiable ].

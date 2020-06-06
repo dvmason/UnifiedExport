@@ -1,1 +1,1 @@
-I have tests fot the subclasses of UEParameterizedTYpe
+I have tests for parameterized tYpes

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 6/6/2020 08:59",
+	"super" : "UEType",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEInterfaceType",
+	"type" : "normal"
+}

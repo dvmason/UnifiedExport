@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "DaveMason 6/5/2020 08:51",
-	"super" : "UEType",
+	"super" : "UEInterfaceType",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],

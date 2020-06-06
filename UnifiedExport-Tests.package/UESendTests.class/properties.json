@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "DaveMason 6/6/2020 09:02",
+	"commentStamp" : "DaveMason 6/6/2020 09:05",
 	"super" : "UETypeTestCase",
 	"category" : "UnifiedExport-Tests-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "UEParameterizedTest",
+	"name" : "UESendTests",
 	"type" : "normal"
 }
