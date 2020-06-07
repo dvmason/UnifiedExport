@@ -1,15 +1,15 @@
 tests
 testVariable
 	| v1 v2 c1 |
-	self assertUnifiable: UEVariable new with: UEVariable new.
+	self assert: UEVariable new unifiableWith: UEVariable new.
 	v1 := UEVariable new.
 	typeInferencer unify: v1 with: self integer.
-	self assertUnifiable: v1 with: UEVariable new.
+	self assert: v1 unifiableWith: UEVariable new.
 	c1 := self integer.
-	self assertUnifiable: v1 with: c1.
-	self assertUnifiable: self integer with: v1.
-	self assertUnifiable: v1 with: v1.
+	self assert: v1 unifiableWith: c1.
+	self assert: self integer unifiableWith: v1.
+	self assert: v1 unifiableWith: v1.
 	v2 := UEVariable new.
-	self assertUnifiable: v2 with: v1.
+	self assert: v2 unifiableWith: v1.
 	self denyUnifiable: v2 with: self boolean.
 	self denyUnifiable: self boolean with: v2.

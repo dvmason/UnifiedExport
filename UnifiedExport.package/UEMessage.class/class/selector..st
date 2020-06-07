@@ -1,3 +1,3 @@
 instance creation
 selector: aString
-	^ self new selector: aString
+	^ super new selector: aString

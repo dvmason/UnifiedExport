@@ -1,3 +1,3 @@
 type unification
-send: aUEMessage with: ueTypes
-   ^ self find objectType send: aUEMessage with: ueTypes.
+send: selector with: ueTypes
+   ^ self find objectType send: selector with: ueTypes.

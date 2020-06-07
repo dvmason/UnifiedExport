@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DaveMason 6/7/2020 08:33",
+	"super" : "UEMessage",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selfReturn"
+	],
+	"name" : "UEMethodDefinition",
+	"type" : "normal"
+}

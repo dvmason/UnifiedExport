@@ -1,3 +1,3 @@
 running
-assertUnifiable: t1 with: t2
+assert: t1 unifiableWith: t2
 	self assert: (typeInferencer unify: t1 with: t2)

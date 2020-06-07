@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "DaveMason 6/7/2020 08:59",
+	"super" : "UEType",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parameters",
+		"resultType",
+		"parameterTypes"
+	],
+	"name" : "UEBlockClosure",
+	"type" : "normal"
+}
