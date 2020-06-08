@@ -1,3 +1,3 @@
 accessing
-targetType: aClass 
-	targetType := aClass
+targetType: aUEType 
+	targetType unifyWith: aUEType

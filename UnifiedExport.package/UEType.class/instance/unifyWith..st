@@ -7,9 +7,9 @@ unifyWith: other
 	root := myRoot union: otherRoot.
 	root == myRoot ifTrue: [
 		other unifyToRoot: root.
-		root addReference: other.
-	] ifFalse: [
+"		root addReference: other.
+"	] ifFalse: [
 		self unifyToRoot: root.
-		root addReference: self.
-	].
+"		root addReference: self.
+"	].
 	^ root

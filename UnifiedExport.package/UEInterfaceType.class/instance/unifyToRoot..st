@@ -1,2 +1,3 @@
 type unification
-unifyToRoot: rootType
+unifyToRoot: aUEObjectType
+	aUEObjectType addReference: self.
