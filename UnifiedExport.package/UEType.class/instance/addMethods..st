@@ -1,2 +1,0 @@
-type unification
-addMethods: anUESimpleType 
