@@ -9,7 +9,8 @@
 		"argTypes",
 		"resultType",
 		"selector",
-		"targetType"
+		"targetType",
+		"resultUsed"
 	],
 	"name" : "UEMessage",
 	"type" : "normal"

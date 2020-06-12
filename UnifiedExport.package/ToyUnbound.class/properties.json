@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ToyTV",
+	"category" : "UnifiedExport-OCaml",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string"
+	],
+	"name" : "ToyUnbound",
+	"type" : "normal"
+}

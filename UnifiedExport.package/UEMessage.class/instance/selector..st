@@ -1,5 +1,6 @@
 accessing
-selector: aString 
+selector: aString
+	resultUsed := false.
 	selector := aString.
 	resultType := UEVariable new.
 	targetType := UESelf new.

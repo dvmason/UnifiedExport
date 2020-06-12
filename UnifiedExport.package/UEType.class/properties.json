@@ -2,11 +2,7 @@
 	"commentStamp" : "DaveMason 5/21/2020 13:04",
 	"super" : "UEUnifiable",
 	"category" : "UnifiedExport-Types",
-	"classinstvars" : [
-		"boolean",
-		"integer",
-		"real"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

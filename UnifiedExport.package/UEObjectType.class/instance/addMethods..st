@@ -4,5 +4,7 @@ addMethods: aDictionaryOfMessages
 		methods at: otherSelector ifPresent: [ :myMessages |
 			myMessages first unifyWith: otherMessages first.
 			myMessages addAll: otherMessages.
-		 ] ifAbsentPut: [ otherMessages ].
+		] ifAbsentPut: [
+			otherMessages
+		].
 	]
