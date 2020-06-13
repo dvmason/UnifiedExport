@@ -1,4 +1,4 @@
-private
+type inference
 typeOf: env
 	| typX typE |
 	typX := self newvar.

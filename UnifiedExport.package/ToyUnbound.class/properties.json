@@ -4,7 +4,9 @@
 	"category" : "UnifiedExport-OCaml",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"NextVar"
+	],
 	"instvars" : [
 		"string"
 	],

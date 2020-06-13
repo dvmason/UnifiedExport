@@ -1,3 +1,3 @@
 as yet unclassified
 newvar
-	^ self error: 'return a new type variable '
+	^ ToyTVar tv: ToyUnbound new
