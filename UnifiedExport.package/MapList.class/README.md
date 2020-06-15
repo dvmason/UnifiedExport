@@ -1,0 +1,1 @@
+Essentially a linked dictionary... access is O(n) but can contain duplicates and can discard front of list O(0)

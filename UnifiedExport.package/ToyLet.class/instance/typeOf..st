@@ -1,4 +1,4 @@
 as yet unclassified
-typeOf: aValueLink 
+typeOf: aMapList 
 	varname := self newvar.
-	^ ToyTArrow type: varname arrow: varname.
+	^ exp2 typeOf: (varname arrow: (exp1 typeOf: aMapList) prependTo: aMapList)

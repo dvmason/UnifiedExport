@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "DaveMason 6/15/2020 11:12",
+	"super" : "Link",
+	"category" : "UnifiedExport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"value"
+	],
+	"name" : "MapList",
+	"type" : "normal"
+}
