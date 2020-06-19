@@ -1,6 +1,6 @@
 tests
-testEg1
-	" fun x -> let y = fun z -> z in y "
+testEg1a
+	" fun x -> let y = fun x -> x in y "
 
 	| toy env type t1 t2 expectedType |
 	toy := ToyLam
@@ -8,7 +8,7 @@ testEg1
 		exp:
 			(ToyLet
 				varname: #y
-				exp: (ToyLam varname: #z exp: (ToyVar varname: #z))
+				exp: (ToyLam varname: #x exp: (ToyVar varname: #x))
 				exp: (ToyVar varname: #y)).
 	env := nil.
 	t1 := ToyUnbound new.
