@@ -1,5 +1,6 @@
 tests
 testSameType
+   "tests that a -> (b -> b) is the same as b-> (a -> a)"
 	| t1 t2 expectedType |
 	t1 := ToyUnbound new.
 	t2 := ToyUnbound new.
