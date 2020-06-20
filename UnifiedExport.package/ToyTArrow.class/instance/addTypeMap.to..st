@@ -1,6 +1,6 @@
 comparing
-isSameType: aToyTyp env: aMap
+addTypeMap: aToyTyp to: aMap
 	self class = aToyTyp class ifFalse: [ ^ false ].
 	^ (typ1 addTypeMap: aToyTyp typ1 to: aMap) and: [
-			typ2 isSameType: aToyTyp typ2 env: aMap
+			typ2 addTypeMap: aToyTyp typ2 to: aMap
 		]
