@@ -11,8 +11,8 @@ testEg2
 				exp: (ToyVar varname: #x)
 				exp: (ToyVar varname: #y)).
 	env := nil.
-	t1 := ToyUnbound new.
-	t2 := ToyUnbound new.
+	t1 := ToyTVar newvar.
+	t2 := ToyTVar newvar.
 	correctType := ToyTArrow type: t1 arrow: t1.
 	unsoundType := ToyTArrow type: t1 arrow: t2.
 	type := toy typeOf: env.

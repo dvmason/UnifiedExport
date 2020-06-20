@@ -11,8 +11,8 @@ testEg1
 				exp: (ToyLam varname: #z exp: (ToyVar varname: #z))
 				exp: (ToyVar varname: #y)).
 	env := nil.
-	t1 := ToyUnbound new.
-	t2 := ToyUnbound new.
+	t1 := ToyTVar newvar.
+	t2 := ToyTVar newvar.
 	expectedType := ToyTArrow type: t1  arrow: (ToyTArrow type: t2 arrow: t2).
 	type := toy typeOf: env.
 	self assert: type sameType: expectedType.

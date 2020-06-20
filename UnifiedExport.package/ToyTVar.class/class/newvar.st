@@ -1,3 +1,3 @@
 as yet unclassified
 newvar
-	^ ToyTVar newvar
+	^ self tv: ToyUnbound new
