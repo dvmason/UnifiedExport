@@ -1,14 +1,14 @@
 {
-	"commentStamp" : "DaveMason 6/5/2020 08:51",
-	"super" : "UEInterfaceType",
+	"commentStamp" : "DaveMason 6/27/2020 09:32",
+	"super" : "Object",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"classRef",
-		"scope"
+		"enclosingScope",
+		"map"
 	],
-	"name" : "UEClassType",
+	"name" : "UEScope",
 	"type" : "normal"
 }

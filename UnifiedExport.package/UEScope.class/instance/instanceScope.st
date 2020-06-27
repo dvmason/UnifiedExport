@@ -1,0 +1,3 @@
+accessing
+instanceScope
+	^ enclosingScope instanceScope

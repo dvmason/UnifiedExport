@@ -4,5 +4,5 @@ typeOfClass: aClass
 			aClass isInstanceSide ifTrue: [
 				classesToInitialize add: aClass classSide.
 			].
-			UEClassType for: aClass
+			(UEClassType for: aClass) scope: self globalScope newScope classScope newScope
 		]

@@ -1,5 +1,7 @@
 visiting
 visitMethodNode: aRBMethodNode
-	methodType := self methodType: aRBMethodNode method.
+	methodType := self typeOfMethod: aRBMethodNode method.
 	methodType targetType: (self typeOfClass: aRBMethodNode methodClass).
-	super visitMethodNode: aRBMethodNode.
+	^ self scoped: methodType do: [
+		super visitMethodNode: aRBMethodNode.
+	]

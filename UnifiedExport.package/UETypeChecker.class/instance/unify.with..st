@@ -1,2 +1,2 @@
-as yet unclassified
+type inference
 unify: anUEMethodDefinition with: anUEMessage

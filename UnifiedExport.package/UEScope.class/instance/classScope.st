@@ -1,0 +1,3 @@
+accessing
+classScope
+	^ enclosingScope classScope
