@@ -1,6 +1,5 @@
 tests
 testYourself
 	| method |
-	method := UEClass1ForTest>>#yourself.
-	transpiler transpileMethod: method.
+	method := typeChecker externalCall: #yourself class: UEClass1ForTest.
 	self assert: method targetType hasType: method resultType.

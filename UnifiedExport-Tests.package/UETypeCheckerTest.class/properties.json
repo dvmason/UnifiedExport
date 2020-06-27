@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "DaveMason 5/29/2020 19:56",
-	"super" : "UETranspiler",
+	"super" : "TestCase",
 	"category" : "UnifiedExport-Tests-Transpiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "UETranspilerForTest",
+	"instvars" : [
+		"typeChecker"
+	],
+	"name" : "UETypeCheckerTest",
 	"type" : "normal"
 }

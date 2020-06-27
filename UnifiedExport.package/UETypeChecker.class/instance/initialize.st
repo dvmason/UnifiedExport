@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	typeMap := IdentityDictionary new.
-	classMap := IdentityDictionary new.
-
+	methodsToType := OrderedCollection new.
+	classesToInitialize := OrderedCollection new.

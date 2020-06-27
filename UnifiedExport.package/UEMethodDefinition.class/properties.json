@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"selfReturn"
+		"selfReturn",
+		"method"
 	],
 	"name" : "UEMethodDefinition",
 	"type" : "normal"

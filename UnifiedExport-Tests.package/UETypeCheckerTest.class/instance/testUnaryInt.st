@@ -1,8 +1,7 @@
 tests
 testUnaryInt
 	| method |
-	method := UEClass1ForTest>>#unaryInt.
-	transpiler transpileMethod: method.
+	method := typeChecker externalCall: #unaryInt class: UEClass1ForTest.
 	self assert: method
 		hasType: (UEMessage selector: #unaryInt
 											result: self integer).
