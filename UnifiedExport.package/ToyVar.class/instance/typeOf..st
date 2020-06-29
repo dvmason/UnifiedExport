@@ -1,3 +1,4 @@
 as yet unclassified
-typeOf: aMapList 
-	self shouldBeImplemented.
+typeOf: env 
+   (env includesKey: varname) ifTrue: [ ^ ToyTVar tv: (env at: varname) ].
+   ^ varname.
