@@ -1,4 +1,10 @@
 as yet unclassified
-typeOf: aMapList 
+typeOf: env 
+	| type |
+	
+	"Let (x,e,e2) -> 
+           let ty_e = typeof env e in
+           typeof ((x,gen ty_e)::env) e2"
 	varname := self newvar.
-	^ exp2 typeOf: (varname arrow: (exp1 typeOf: aMapList) prependTo: aMapList)
+	"type := exp2 typeOf: (varname arrow: (exp1 typeOf: env) prependTo: env)."
+	^ToyTArrow type: varname arrow: varname
