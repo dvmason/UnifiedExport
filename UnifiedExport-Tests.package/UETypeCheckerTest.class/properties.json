@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "DaveMason 5/29/2020 19:56",
 	"super" : "TestCase",
-	"category" : "UnifiedExport-Tests-Transpiler",
+	"category" : "UnifiedExport-Tests-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
