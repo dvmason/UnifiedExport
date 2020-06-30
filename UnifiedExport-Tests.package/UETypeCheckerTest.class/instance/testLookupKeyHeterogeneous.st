@@ -1,6 +1,6 @@
 tests
-testLookupKeyComplicated
-	| int lukClass lukInstance result bool lukInstanceB resultB resultType |
+testLookupKeyHeterogeneous
+	| int lukClass lukInstance result bool resultType resultB obj |
 	int := typeChecker typeOfObject: 42.
 	lukClass := typeChecker typeOfObject: LookupKey class.
 	lukInstance := (lukClass send: #key: with: {int}) resultType.
@@ -9,9 +9,10 @@ testLookupKeyComplicated
 	int send: #negated.
 	bool := typeChecker typeOfObject: true.
 	bool send: #not.
-	lukInstanceB := (lukClass send: #key: with: {bool}) resultType.
-	resultB := (lukInstanceB send: #key) resultType.
-	self assert: resultB hasType: bool.
+	lukInstance send: #key: with: {bool}.
+	resultB := (lukInstance send: #key) resultType.
+	obj := typeChecker typeOf: Object.
+	self assert: resultB resultType hasType: obj.
 	resultType := typeChecker principleType: (typeChecker typeOf: LookupKey>>#key) returnType.
-	self assert: resultType equals: (typeChecker typeOf: Object).
+	self assert: resultType equals: obj.
 
