@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "DaveMason 6/27/2020 09:32",
+	"super" : "Object",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"enclosingScope",
+		"map"
+	],
+	"name" : "UEScope",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+scoping
+instanceScope
+	^ currentScope instanceScope

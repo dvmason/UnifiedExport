@@ -1,6 +1,7 @@
 visiting
 visitMethodNode: aRBMethodNode
-	methodType := UEMethodDefinition selector: aRBMethodNode selector.
-	typeMap at: aRBMethodNode method put: methodType.
-	methodType targetType: (self uETypeForClass: aRBMethodNode methodClass).
-	super visitMethodNode: aRBMethodNode.
+	methodType := self typeOfMethod: aRBMethodNode method.
+	methodType targetType: (self typeOfClass: aRBMethodNode methodClass).
+	^ self scoped: methodType do: [
+		super visitMethodNode: aRBMethodNode.
+	]

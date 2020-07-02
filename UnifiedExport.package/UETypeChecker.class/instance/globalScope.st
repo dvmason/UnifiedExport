@@ -1,0 +1,3 @@
+scoping
+globalScope
+	^ currentScope globalScope

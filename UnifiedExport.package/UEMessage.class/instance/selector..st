@@ -2,6 +2,6 @@ accessing
 selector: aString
 	resultUsed := false.
 	selector := aString.
-	resultType := UEVariable new.
+	resultType := self newType.
 	targetType := UESelf new.
-	argTypes := (1 to: aString numArgs) collect: [: ignore |  UEVariable new ].
+	argTypes := (1 to: aString numArgs) collect: [: ignore |  self newType ].

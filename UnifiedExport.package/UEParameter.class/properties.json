@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 6/27/2020 20:16",
+	"super" : "UEVariable",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEParameter",
+	"type" : "normal"
+}
