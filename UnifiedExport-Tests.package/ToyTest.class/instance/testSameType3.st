@@ -5,4 +5,4 @@ testSameType3
 	t1 := ToyTVar newvar.
 	t2 := ToyTVar newvar.
 	expectedType := ToyTArrow type: t1  arrow: (ToyTArrow type: t1 arrow: t2).
-	self deny: (ToyTArrow type: t2 arrow: (ToyTArrow type: t1 arrow: t2)) sameType: expectedType.
+	self deny: (ToyTArrow type: t2 arrow: (ToyTArrow type: t1 arrow: t2)) equals: expectedType.

@@ -16,4 +16,4 @@ testEg2
 	correctType := ToyTArrow type: t1 arrow: t1.
 	unsoundType := ToyTArrow type: t1 arrow: t2.
 	type := toy typeOf: env.
-	self assert: type equals: unsoundType. " change to correctType once typeOf: has been extended"
+	self assert: type equals: correctType. " change to correctType once typeOf: has been extended"

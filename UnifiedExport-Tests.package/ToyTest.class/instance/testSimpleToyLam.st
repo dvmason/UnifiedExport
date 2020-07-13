@@ -5,4 +5,4 @@ testSimpleToyLam
 	t1 := ToyTVar newvar.
 	expectedType := ToyTArrow type: t1 arrow: t1.
 	type := toy typeOf: nil.
-	self assert: type sameType: expectedType.
+	self assert: type equals: expectedType.
