@@ -15,4 +15,4 @@ testEg1
 	t2 := ToyTVar newvar.
 	expectedType := ToyTArrow type: t1  arrow: (ToyTArrow type: t2 arrow: t2).
 	type := toy typeOf: env.
-	self assert: type sameType: expectedType.
+	self assert: type equals: expectedType.
