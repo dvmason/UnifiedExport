@@ -1,3 +1,0 @@
-accessing
-globalScope
-	^ enclosingScope globalScope

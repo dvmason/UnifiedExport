@@ -6,7 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"typeChecker"
+		"typeMap",
+		"typeChecker",
+		"classes",
+		"methods",
+		"selectors",
+		"moreToProcess"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"

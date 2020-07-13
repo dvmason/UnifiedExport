@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "DaveMason 5/29/2020 22:52",
 	"super" : "RBProgramNodeVisitor",
-	"category" : "UnifiedExport-Types",
+	"category" : "UnifiedExport-Transpiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -9,10 +9,7 @@
 		"typeMap",
 		"transpiler",
 		"methodType",
-		"methodsToType",
-		"classType",
-		"classesToInitialize",
-		"currentScope"
+		"classMap"
 	],
 	"name" : "UETypeChecker",
 	"type" : "normal"

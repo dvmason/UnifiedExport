@@ -1,3 +1,0 @@
-visiting
-visitArgumentNode: anArgumentNode
-self halt

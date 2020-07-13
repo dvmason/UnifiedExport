@@ -1,3 +1,0 @@
-scoping
-classScope
-	^ currentScope classScope

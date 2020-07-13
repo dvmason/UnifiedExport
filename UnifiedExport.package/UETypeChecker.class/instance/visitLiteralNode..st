@@ -1,3 +1,3 @@
 visiting
 visitLiteralNode: aRBLiteralValueNode 
-	^ self typeOfObject: aRBLiteralValueNode value
+	^ self uETypeFor: aRBLiteralValueNode value

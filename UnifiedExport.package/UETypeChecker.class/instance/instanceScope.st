@@ -1,3 +1,0 @@
-scoping
-instanceScope
-	^ currentScope instanceScope
