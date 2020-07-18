@@ -9,7 +9,7 @@ typeOf: env
 | typFun typArg typRes |
 typFun := exp1 typeOf: env.
 typArg := exp2 typeOf: env.
-typRes = self newvar.
+typRes := self newvar.
 typFun unify: (ToyTArrow type: typArg arrow: typRes).
 ^typRes.
 
