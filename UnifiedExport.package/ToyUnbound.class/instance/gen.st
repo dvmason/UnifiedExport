@@ -1,0 +1,3 @@
+accessing
+gen
+	^ ToyQVar new.
