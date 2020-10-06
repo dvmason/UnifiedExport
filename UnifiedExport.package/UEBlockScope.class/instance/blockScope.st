@@ -1,0 +1,3 @@
+scope
+blockScope
+	^ self

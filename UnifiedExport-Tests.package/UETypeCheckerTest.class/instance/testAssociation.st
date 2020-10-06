@@ -3,7 +3,7 @@ testAssociation
 	| int aClass anInstance result bool resultType resultB |
 	int := typeChecker typeOfObject: 42.
 	bool := typeChecker typeOfObject: true.
-	aClass := typeChecker typeOfObject: Association class.
+	aClass := typeChecker typeOfObject: Association.
 	anInstance := (aClass send: #key:value: with: {int.bool}) resultType.
 	result := (anInstance send: #key) resultType.
 	self assert: result hasType: int.

@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DaveMason 8/22/2020 08:44",
 	"super" : "UEClass1ForTest",
-	"category" : "UnifiedExport-Tests-Transpiler",
+	"category" : "UnifiedExport-Tests-ClassesForTests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

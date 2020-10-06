@@ -1,3 +1,3 @@
-accessing
+scope
 instanceScope
 	^ enclosingScope instanceScope

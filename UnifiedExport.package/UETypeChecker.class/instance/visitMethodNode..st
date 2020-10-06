@@ -1,7 +1,8 @@
 visiting
 visitMethodNode: aRBMethodNode
 	methodType := self typeOfMethod: aRBMethodNode method.
-	methodType targetType: (self typeOfClass: aRBMethodNode methodClass).
-	^ self scoped: methodType do: [
+	self flag: #ToDo. " set target type properly "
+"	methodType targetType: (self typeOfClass: aRBMethodNode methodClass).
+"	^ self scoped: methodType do: [
 		super visitMethodNode: aRBMethodNode.
 	]

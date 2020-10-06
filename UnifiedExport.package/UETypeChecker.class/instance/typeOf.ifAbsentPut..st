@@ -1,3 +1,3 @@
 accessing
-typeOf: anObject orPut: aBlock
+typeOf: anObject ifAbsentPut: aBlock
 	^ typeMap at: anObject ifAbsentPut: aBlock

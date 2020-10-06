@@ -1,3 +1,3 @@
-accessing
+scope
 globalScope
 	^ enclosingScope globalScope

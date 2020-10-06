@@ -1,7 +1,8 @@
 tests
 testUnaryInt
 	| method |
-	method := typeChecker externalCall: #unaryInt class: UEClass1ForTest.
+	typeChecker := UETypeChecker new. " get rid of this once ready "
+	method := typeChecker externalMessage: #unaryInt class: UEClass1ForTest. " type: UEClass1ForTest unaryInt "
 	self assert: method
 		hasType: (UEMessage selector: #unaryInt
 											result: self integer).

@@ -1,5 +1,5 @@
 type inference
 blockType: aBlockClosure
-	^ self typeOf: aBlockClosure orPut: [
-		UEBlockClosure new scope: currentScope newScope
+	^ self typeOf: aBlockClosure ifAbsentPut: [
+		UEBlockClosure new scope: currentScope newBlockScope
 	].

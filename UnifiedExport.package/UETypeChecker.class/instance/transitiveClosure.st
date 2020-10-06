@@ -5,7 +5,7 @@ transitiveClosure
 		classes := classesToInitialize.
 		classesToInitialize := OrderedCollection new.
 		classes do: [: class |
-			classType := self externalCall: #initialize class: class.
+			classType := self externalMessage: #initialize class: class.
 		].
 		[ methodsToType isEmpty ] whileFalse: [
 			methods := methodsToType.

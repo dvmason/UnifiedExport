@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "DaveMason 8/26/2020 12:14",
+	"super" : "UEScope",
+	"category" : "UnifiedExport-Scopes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"nestedBlocks"
+	],
+	"name" : "UEMethodScope",
+	"type" : "normal"
+}

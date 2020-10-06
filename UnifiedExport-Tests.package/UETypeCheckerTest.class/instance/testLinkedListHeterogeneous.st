@@ -4,7 +4,7 @@ testLinkedListHeterogeneous
 	int := typeChecker typeOfObject: 42.
 	bool := typeChecker typeOfObject: true.
 	obj := typeChecker typeOf: Object.
-	llInstance := typeChecker externalCall: #new class: LinkedList.
+	llInstance := typeChecker externalMessage: #new class: LinkedList.
 	llInstance send: #add: with: {int}.
 	llInstance send: #add: with: {bool}.
 	result := (llInstance send: #first) resultType.

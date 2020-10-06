@@ -1,0 +1,3 @@
+scope
+blockOrMethodScope
+	^ self shouldNotImplement

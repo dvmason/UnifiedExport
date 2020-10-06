@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "DaveMason 5/29/2020 19:54",
 	"super" : "Object",
-	"category" : "UnifiedExport-Tests-Transpiler",
+	"category" : "UnifiedExport-Tests-ClassesForTests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

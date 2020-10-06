@@ -1,3 +1,3 @@
-accessing
+scope
 classScope
 	^ enclosingScope classScope

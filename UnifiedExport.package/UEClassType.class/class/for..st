@@ -1,3 +1,3 @@
 instance creation
-for: aClass 
+for: aClass
 	^ self new classRef: aClass

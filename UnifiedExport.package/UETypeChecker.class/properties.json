@@ -9,10 +9,10 @@
 		"typeMap",
 		"transpiler",
 		"methodType",
-		"methodsToType",
 		"classType",
 		"classesToInitialize",
-		"currentScope"
+		"currentScope",
+		"replacementMethods"
 	],
 	"name" : "UETypeChecker",
 	"type" : "normal"

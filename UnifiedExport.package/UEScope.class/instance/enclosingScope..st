@@ -1,3 +1,3 @@
-accessing
+scope
 enclosingScope: aUEScope
 	enclosingScope := aUEScope.

@@ -1,8 +1,18 @@
 accessing
 typeOfClass: aClass 
-	^ self typeOf: aClass orPut: [
+	| type cType |
+	^ self typeOf: aClass ifAbsent: [
+			type := UEClassType for: aClass.
+			typeMap at: aClass put: type.
 			aClass isInstanceSide ifTrue: [
-				classesToInitialize add: aClass classSide.
+				cType := self typeOfClass: aClass classSide.
+				type scope: cType scope newInstanceScope.
+				" make class variable scope right "
+			] ifFalse: [
+				self flag: #ToDo. " probably should be supcrclass classScope instead of globalScope "
+				type scope: (self globalScope newClassScope: aClass instanceSide name) newInstanceScope.
+				self externalMessage: #initialize class: aClass instanceSide.
+				classesToInitialize add: aClass.
 			].
-			(UEClassType for: aClass) scope: self globalScope newScope classScope newScope
+			type
 		]
