@@ -1,3 +1,3 @@
 instance creation
-type: aTyp arrow: aTyp2 
-	^ self new type: aTyp arrow: aTyp2 
+type: aTyp1 arrow: aTyp2 
+	^ self new type: aTyp1 arrow: aTyp2 
