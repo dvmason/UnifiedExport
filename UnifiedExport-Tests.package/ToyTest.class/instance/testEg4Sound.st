@@ -1,5 +1,5 @@
 tests
-testEg4
+testEg4Sound
 	" fun x -> let y = fun z -> x z in y "
 
 	| toy env type t1 t2 correctType |
