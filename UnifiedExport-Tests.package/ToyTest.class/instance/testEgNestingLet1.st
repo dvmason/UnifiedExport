@@ -3,7 +3,7 @@ testEgNestingLet1
 	" 	#	 fun x -> let y = fun z -> let m = fun y -> x z in m in y;;
 		- : ('a -> 'b) -> 'a -> 'c -> 'b = <fun> "
 
-	| toy env type t1 t2 correctType t3 t4 |
+	| toy env type t1 t2 correctType t3 |
 	toy := ToyLam
 		varname: #x
 		exp:
@@ -20,7 +20,6 @@ testEgNestingLet1
 	t1 := ToyTVar newvar.
 	t2 := ToyTVar newvar.
 	t3 := ToyTVar newvar.
-	t4 := ToyTVar newvar.
 	
 	correctType := ToyTArrow type: (ToyTArrow type: t1 arrow: t2) arrow: (ToyTArrow type: t1 arrow: (ToyTArrow type: t3 arrow: t2)).
 	type := toy typeOf: env.
