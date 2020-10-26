@@ -22,6 +22,6 @@ testEgNestingLet1
 	t3 := ToyTVar newvar.
 	t4 := ToyTVar newvar.
 	
-	correctType := ToyTArrow type: (ToyTArrow type: t1 arrow: t2) arrow: (ToyTArrow type: t3 arrow: t4).
+	correctType := ToyTArrow type: (ToyTArrow type: t1 arrow: t2) arrow: (ToyTArrow type: t1 arrow: (ToyTArrow type: t3 arrow: t2)).
 	type := toy typeOf: env.
 	self assert: type equals: correctType. 	
