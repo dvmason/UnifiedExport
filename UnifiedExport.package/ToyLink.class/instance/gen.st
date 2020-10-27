@@ -1,0 +1,3 @@
+printing
+gen
+	^ typ gen.

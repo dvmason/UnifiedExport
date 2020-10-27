@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	aStream nextPutAll: string.
+	aStream nextPut: $';nextPutAll: string.

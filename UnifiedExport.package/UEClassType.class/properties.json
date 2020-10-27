@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"classRef",
-		"scope"
+		"classRef"
 	],
 	"name" : "UEClassType",
 	"type" : "normal"

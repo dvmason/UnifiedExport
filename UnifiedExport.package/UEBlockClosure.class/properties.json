@@ -8,8 +8,7 @@
 	"instvars" : [
 		"parameters",
 		"resultType",
-		"parameterTypes",
-		"scope"
+		"parameterTypes"
 	],
 	"name" : "UEBlockClosure",
 	"type" : "normal"

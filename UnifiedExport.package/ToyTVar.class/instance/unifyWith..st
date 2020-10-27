@@ -1,5 +1,6 @@
 type unification
 unifyWith: aTyp
-	tv unify: self link: aTyp.
+	tv isToyUnbound ifTrue: [ ^ (tv occurs: aTyp) ifFalse: [tv := aTyp ]].
+	tv isToyLink ifTrue: [ ^ tv unify: nil link: aTyp ].
 
  

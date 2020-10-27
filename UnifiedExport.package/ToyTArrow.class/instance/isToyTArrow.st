@@ -1,0 +1,4 @@
+printing
+isToyTArrow
+	^ true.
+	
