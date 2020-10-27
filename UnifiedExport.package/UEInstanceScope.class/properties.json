@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "DaveMason 6/27/2020 09:36",
 	"super" : "UEScope",
-	"category" : "UnifiedExport-Types",
+	"category" : "UnifiedExport-Scopes",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"methodScopes"
+	],
 	"name" : "UEInstanceScope",
 	"type" : "normal"
 }

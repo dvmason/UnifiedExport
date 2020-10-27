@@ -12,7 +12,8 @@
 		"classType",
 		"classesToInitialize",
 		"currentScope",
-		"replacementMethods"
+		"replacementMethods",
+		"methodsToType"
 	],
 	"name" : "UETypeChecker",
 	"type" : "normal"
