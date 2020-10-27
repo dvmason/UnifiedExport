@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ToyExp",
+	"category" : "UEToy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"varname",
+		"exp1",
+		"exp2"
+	],
+	"name" : "ToyLet",
+	"type" : "normal"
+}

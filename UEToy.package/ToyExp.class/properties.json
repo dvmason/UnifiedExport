@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 6/12/2020 16:59",
+	"super" : "Object",
+	"category" : "UEToy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ToyExp",
+	"type" : "normal"
+}

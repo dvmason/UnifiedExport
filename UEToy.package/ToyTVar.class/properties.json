@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ToyTyp",
+	"category" : "UEToy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tv"
+	],
+	"name" : "ToyTVar",
+	"type" : "normal"
+}
