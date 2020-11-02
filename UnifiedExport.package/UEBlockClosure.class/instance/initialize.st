@@ -1,6 +1,5 @@
 initialize-release
 initialize
 	super initialize.
-	parameters := 0.
-	parameterTypes := #().
+	parameters := #().
 	resultType := UEVariable new.
