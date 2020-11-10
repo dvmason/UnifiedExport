@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "UnifiedExport-Tests-Transpiling",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"transpiler"
+	],
+	"name" : "UETranspileTest",
+	"type" : "normal"
+}

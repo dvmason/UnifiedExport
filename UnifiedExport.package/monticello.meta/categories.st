@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #UnifiedExport!
+SystemOrganization addCategory: #'UnifiedExport-AST'!
 SystemOrganization addCategory: #'UnifiedExport-Manifest'!
 SystemOrganization addCategory: #'UnifiedExport-Scopes'!
 SystemOrganization addCategory: #'UnifiedExport-Transpiler'!

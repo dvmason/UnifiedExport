@@ -1,0 +1,3 @@
+accessing
+argTypes
+	^ type argTypes
