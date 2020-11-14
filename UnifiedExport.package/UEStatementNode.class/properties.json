@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"selector",
-		"statements"
-	],
-	"name" : "UEMethodNode",
+	"instvars" : [ ],
+	"name" : "UEStatementNode",
 	"type" : "normal"
 }

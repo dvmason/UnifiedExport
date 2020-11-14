@@ -1,5 +1,3 @@
-transpilating
-transpile: aCompiledMethod
-	| ast |
-	ast := aCompiledMethod ast.
-	^ ast acceptVisitor: self
+transpiling
+transpile: anObject
+	^ anObject transpileWith: self

@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "UENode",
+	"super" : "UEStatementNode",
 	"category" : "UnifiedExport-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"selector",
-		"statements"
-	],
-	"name" : "UEMethodNode",
+	"instvars" : [ ],
+	"name" : "UEExpressionNode",
 	"type" : "normal"
 }
