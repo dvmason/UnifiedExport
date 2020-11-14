@@ -1,3 +1,3 @@
 visiting
-visitTemporaryNode: aRBVariableNode 
-	^ UEVariableNode new setLocal;name: aRBVariableNode name
+visitTemporaryNode: aRBVariableNode
+	^ UEVariableNode new scope: (self scopeOf: aRBVariableNode); name: aRBVariableNode name

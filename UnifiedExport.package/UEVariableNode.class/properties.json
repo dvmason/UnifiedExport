@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UEExpressionNode",
 	"category" : "UnifiedExport-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"local",
-		"name"
+		"name",
+		"scope"
 	],
 	"name" : "UEVariableNode",
 	"type" : "normal"

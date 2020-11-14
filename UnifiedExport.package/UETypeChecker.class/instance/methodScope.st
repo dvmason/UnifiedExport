@@ -1,0 +1,3 @@
+scoping
+methodScope
+	^ currentScope methodScope

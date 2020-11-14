@@ -1,3 +1,0 @@
-accessing
-setLocal
-	local := true.

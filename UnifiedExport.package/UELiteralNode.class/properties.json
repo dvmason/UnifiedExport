@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UEExpressionNode",
 	"category" : "UnifiedExport-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
