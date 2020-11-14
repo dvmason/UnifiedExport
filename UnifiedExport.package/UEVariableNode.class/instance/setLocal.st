@@ -1,0 +1,3 @@
+accessing
+setLocal
+	local := true.

@@ -5,7 +5,7 @@ transpileMethod: aCompiledMethod
 		self class: aCompiledMethod methodClass.
 		currentMethod := aCompiledMethod.
 		ast := aCompiledMethod ast.
-		ast acceptVisitor: self
+		self visit: ast
 	].
 	self selector: aCompiledMethod selector.
 	^ result

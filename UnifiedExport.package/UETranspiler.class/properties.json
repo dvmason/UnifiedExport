@@ -13,7 +13,9 @@
 		"selectors",
 		"currentClass",
 		"currentMethod",
-		"methodsToTranspile"
+		"methodsToTranspile",
+		"currentMethodNode",
+		"methodNode"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"
