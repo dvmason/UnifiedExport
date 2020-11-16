@@ -1,3 +1,3 @@
 testing-utilities
-abc: value
-	^ value
+abc: aValue
+	abc := aValue.

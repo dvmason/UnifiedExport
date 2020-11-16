@@ -1,6 +1,5 @@
 visiting
-visitMethodNode: aRBMethodNode 
-	methodNode := UEMethodNode method: aRBMethodNode.
+visitMethodNode: aRBMethodNode
 	" more to come "
 	self visit: aRBMethodNode body.
 	(methodNode statements isEmpty or: [methodNode statements last isReturn not]) ifTrue: [

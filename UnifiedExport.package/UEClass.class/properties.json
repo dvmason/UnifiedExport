@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"class",
+		"classScope",
+		"instanceSideScope",
+		"classSideScope"
+	],
 	"name" : "UEClass",
 	"type" : "normal"
 }

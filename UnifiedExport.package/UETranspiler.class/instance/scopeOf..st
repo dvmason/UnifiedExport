@@ -1,7 +1,7 @@
 visiting
 scopeOf: aRBVariableNode 
-	aRBVariableNode isDefinedByBlock ifTrue: [ ^ typeChecker blockScope ].
-	aRBVariableNode isInstanceVariable ifTrue: [ ^ typeChecker instanceScope ].
-	aRBVariableNode isClassVariable ifTrue: [ ^ typeChecker classScope ].
-	aRBVariableNode isGlobalVariable ifTrue: [ ^ typeChecker globalScope ].
-	^ typeChecker methodScope
+	aRBVariableNode isDefinedByBlock ifTrue: [ ^ currentScope blockScope ].
+	aRBVariableNode isInstanceVariable ifTrue: [ ^ currentScope instanceScope ].
+	aRBVariableNode isClassVariable ifTrue: [ ^ currentScope classScope ].
+	aRBVariableNode isGlobalVariable ifTrue: [ ^ currentScope globalScope ].
+	^ currentScope methodScope

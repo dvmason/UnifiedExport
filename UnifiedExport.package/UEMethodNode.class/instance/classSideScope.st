@@ -1,0 +1,3 @@
+accessing
+classSideScope
+	^ uEClass classSideScope
