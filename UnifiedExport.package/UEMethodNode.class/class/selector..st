@@ -1,3 +1,3 @@
 initialization
 selector: aString 
-	^ self basicNew selector: aString
+	^ self new selector: aString

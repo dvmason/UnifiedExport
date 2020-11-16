@@ -1,5 +1,5 @@
 visiting
 visitSequenceNode: aRBSequenceNode 
 	aRBSequenceNode statements do: [: statement |
-		methodNode addStatement: (self visit: statement)
+		statementTarget addStatement: (self visit: statement)
 	].

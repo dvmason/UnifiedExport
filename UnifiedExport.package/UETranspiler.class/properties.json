@@ -17,7 +17,8 @@
 		"currentMethodNode",
 		"methodNode",
 		"globalscope",
-		"currentScope"
+		"currentScope",
+		"statementTarget"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"

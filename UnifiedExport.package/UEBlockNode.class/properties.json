@@ -6,10 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"receiver",
-		"t",
-		"f"
+		"scope",
+		"statements"
 	],
-	"name" : "UEConditionalNode",
+	"name" : "UEBlockNode",
 	"type" : "normal"
 }
