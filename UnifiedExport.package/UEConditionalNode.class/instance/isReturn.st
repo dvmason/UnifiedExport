@@ -1,5 +1,5 @@
 testing
 isReturn
-	t ifNil: [ ^ false ].
-	f ifNil: [ ^ false ].
-	^ t isReturn and: [ f isReturn ]
+	trueBranch ifNil: [ ^ false ].
+	falseBranch ifNil: [ ^ false ].
+	^ trueBranch isReturn and: [ falseBranch isReturn ]

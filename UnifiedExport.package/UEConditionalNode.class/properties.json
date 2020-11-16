@@ -7,8 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"receiver",
-		"t",
-		"f"
+		"falseBranch",
+		"trueBranch"
 	],
 	"name" : "UEConditionalNode",
 	"type" : "normal"
