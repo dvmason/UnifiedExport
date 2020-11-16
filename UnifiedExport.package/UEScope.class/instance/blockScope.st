@@ -1,3 +1,3 @@
 scope
 blockScope
-	^ enclosingScope blockScope
+	^ self shouldNotImplement

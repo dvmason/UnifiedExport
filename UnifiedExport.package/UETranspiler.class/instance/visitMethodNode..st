@@ -1,4 +1,4 @@
-visitor
+visiting
 visitMethodNode: aRBMethodNode 
 	methodNode := UEMethodNode method: aRBMethodNode.
 	" more to come "

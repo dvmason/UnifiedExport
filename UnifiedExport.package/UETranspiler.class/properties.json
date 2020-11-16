@@ -15,7 +15,9 @@
 		"currentMethod",
 		"methodsToTranspile",
 		"currentMethodNode",
-		"methodNode"
+		"methodNode",
+		"globalscope",
+		"currentScope"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"

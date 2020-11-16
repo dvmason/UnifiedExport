@@ -1,10 +1,10 @@
 transpiling
-addMethods: aClass to: class
+addInstanceAndClassMethodsFrom: aClass
 	aClass instanceSide methodsDo: [: method |
 		(selectors includes: method selector) ifTrue: [
-			methodsToTranspile add: method
+			self addMethodToTranspile: method
 	]].
 	aClass classSide methodsDo: [: method |
 		(selectors includes: method selector) ifTrue: [
-			methodsToTranspile add: method
+			self addMethodToTranspile: method
 	]].
