@@ -1,3 +1,3 @@
 visiting
-visitTemporaryNode: aRBVariableNode
+visitGlobalNode: aRBVariableNode
 	^ self visitVariableNode: aRBVariableNode

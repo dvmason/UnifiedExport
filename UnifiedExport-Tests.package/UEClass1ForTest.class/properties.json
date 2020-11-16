@@ -6,7 +6,9 @@
 		"abc"
 	],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"ClassVar"
+	],
 	"instvars" : [
 		"test5"
 	],
