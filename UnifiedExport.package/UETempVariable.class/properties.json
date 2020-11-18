@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "UEStatementNode",
+	"super" : "UEVariableNode",
 	"category" : "UnifiedExport-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "UEWhileNode",
+	"name" : "UETempVariable",
 	"type" : "normal"
 }

@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	statements := UEStatementsNode new.
+	statements := OrderedCollection new.

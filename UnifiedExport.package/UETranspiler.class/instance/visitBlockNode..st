@@ -1,11 +1,16 @@
 visiting
 visitBlockNode: aRBBlockNode
-	| savedScope node |
+	| savedScope node savedNode |
+	savedNode := methodOrBlockNode.
 	savedScope := currentScope.
 	currentScope := savedScope newBlockScope.
 	[
 		node := UEBlockNode new scope: currentScope.
 		self flag: #ToDo. " add argument handling "
-		node statements: (self visitAll: aRBBlockNode statements).
+		methodOrBlockNode := node.
+		self visit: aRBBlockNode body.
 		^ node
-	] ensure: [ currentScope := savedScope ]
+	] ensure: [
+		currentScope := savedScope.
+		methodOrBlockNode := savedNode
+	]
