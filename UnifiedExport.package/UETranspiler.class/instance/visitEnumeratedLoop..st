@@ -1,6 +1,5 @@
 visiting
 visitEnumeratedLoop: aRBMessageNode
-
 	| node |
 	node := UEDoLoopNode new.
 	node start: (self visit: aRBMessageNode receiver).

@@ -10,8 +10,8 @@ visitMessageNode: aRBMessageNode
 			aRBMessageNode receiver isBlock and: [
 				aRBMessageNode arguments isEmpty or: [
 					aRBMessageNode arguments last isBlock]]]
-			) ifTrue:[
-				^ self visitConditionalLoop: aRBMessageNode ].
+			) ifTrue: [
+				^ self visitWhileLoop: aRBMessageNode ].
 	self selector: aRBMessageNode selector.
 	^ UEMessageNode new
 		selector: aRBMessageNode selector
