@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DaveMason 11/19/2020 11:07",
 	"super" : "Object",
 	"category" : "UnifiedExport-AST",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"type"
+		"type",
+		"isResultRequired"
 	],
 	"name" : "UENode",
 	"type" : "normal"

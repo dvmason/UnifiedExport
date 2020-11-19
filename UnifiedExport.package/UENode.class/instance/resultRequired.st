@@ -1,0 +1,3 @@
+asserting
+resultRequired
+	isResultRequired := true

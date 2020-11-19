@@ -4,7 +4,9 @@
 	"category" : "UnifiedExport-Transpiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"OptimizedMessages"
+	],
 	"instvars" : [
 		"typeMap",
 		"typeChecker",

@@ -1,5 +1,6 @@
-visiting
-visitEnumeratedLoop: aRBMessageNode
+optimize
+optimizeToDo: aRBMessageNode
+
 	| node |
 	node := UEDoLoopNode new.
 	node start: (self visit: aRBMessageNode receiver).
@@ -9,5 +10,6 @@ visitEnumeratedLoop: aRBMessageNode
 		ifFalse: [ node step: (self visit: aRBMessageNode arguments second) ].
 	node body: (self
 			 visitInline: aRBMessageNode arguments last
-			 withArguments: {UETempVariable new}).
+			 withArguments: { UETempVariable new }
+			 required: true).
 	^ node

@@ -8,6 +8,6 @@
 	"instvars" : [
 		"transpiler"
 	],
-	"name" : "UETranspileTest",
+	"name" : "UETranspilerTest",
 	"type" : "normal"
 }
