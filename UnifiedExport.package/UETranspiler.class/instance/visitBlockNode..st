@@ -8,6 +8,7 @@ visitBlockNode: aRBBlockNode
 		node := UEBlockNode new scope: currentScope.
 		self flag: #ToDo. " add argument handling "
 		methodOrBlockNode := node.
+		self halt.
 		self visit: aRBBlockNode body.
 		^ node
 	] ensure: [
