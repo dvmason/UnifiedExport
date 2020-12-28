@@ -6,9 +6,10 @@ visitBlockNode: aRBBlockNode
 	currentScope := savedScope newBlockScope.
 	[
 		node := UEBlockNode new scope: currentScope.
-		self flag: #ToDo. " add argument handling "
 		methodOrBlockNode := node.
-		self halt.
+		aRBBlockNode hasTemporaries | aRBBlockNode hasArguments ifTrue: [
+			self flag: #ToDo. " add argument handling "
+			self error: #debugging].
 		self visit: aRBBlockNode body.
 		^ node
 	] ensure: [

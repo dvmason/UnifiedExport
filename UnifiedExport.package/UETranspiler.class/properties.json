@@ -8,15 +8,12 @@
 		"OptimizedMessages"
 	],
 	"instvars" : [
-		"typeMap",
 		"typeChecker",
 		"classes",
 		"methods",
 		"selectors",
 		"currentClass",
-		"currentMethod",
 		"methodsToTranspile",
-		"currentMethodNode",
 		"methodNode",
 		"globalscope",
 		"currentScope",

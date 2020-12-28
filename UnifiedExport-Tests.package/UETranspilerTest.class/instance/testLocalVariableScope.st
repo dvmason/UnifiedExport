@@ -1,8 +1,8 @@
 tests
 testLocalVariableScope
 	| method |
-	method := transpiler transpile: UEClass1ForTest >> #test19.
-	self assert: method argTypes size equals: 1.
+	method := transpiler transpile: UEClass1ForTest >> #test20.
+	self assert: method argTypes size equals: 0.
 	self assert: method statements size equals: 2.
-	self assert: transpiler methodsToTranspile size equals: 0.
-	self assert: method statements first variable scope equals: method uEClass instanceSideScope.
+	self assert: transpiler methodsToTranspile size equals: 1.
+	self assert: method statements first receiver statements first variable scope equals: method scope.

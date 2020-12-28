@@ -1,3 +1,3 @@
 testing - examples
 test7
-	test5 ifTrue: [ test5 := 4 ].
+	test5 ifTrue: [ test5 := false ].
