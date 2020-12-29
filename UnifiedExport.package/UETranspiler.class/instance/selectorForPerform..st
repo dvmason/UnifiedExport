@@ -1,5 +1,5 @@
 transpiling
-selector: selector
+selectorForPerform: selector
 	(selectors includes: selector) ifTrue: [ ^ self ].
 	selectors add: selector.
 	classes keysDo: [: class |

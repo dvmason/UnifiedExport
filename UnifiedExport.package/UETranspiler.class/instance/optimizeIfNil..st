@@ -1,26 +1,19 @@
 optimize
 optimizeIfNil: aRBMessageNode
-
-	| node receiver arguments secondArg firstArg |
+	| node receiver arguments secondArgs firstArgs |
 	node := UEConditionalNode new.
 	receiver := self visit: aRBMessageNode receiver.
 	arguments := aRBMessageNode arguments.
-	firstArg := secondArg := #().
+	firstArgs := secondArgs := #().
 	aRBMessageNode selector fourth = $i ifTrue: [
 		node receiver: receiver.
-		secondArg := { UETempVariable new }
+		secondArgs := { UETempVariable new }
 	] ifFalse: [
 		node receiver: receiver not.
-		arguments := arguments reversed.
-		firstArg := { UETempVariable new }
+		firstArgs := { UETempVariable new }
 	].
-	node trueBranch: (self
-			 visitInline: arguments first
-					   withArguments: firstArg
-					   required: false).
+	node trueBranch: (self visitInline: arguments first withArguments: firstArgs required: false).
   arguments size = 2 ifTrue: [
-		node falseBranch: (self
-					   visitInline: aRBMessageNode arguments last
-					   withArguments: secondArg
-					   required: false) ].
+		node falseBranch: (self visitInline: arguments second withArguments: secondArgs required: false)
+	].
 	^ node

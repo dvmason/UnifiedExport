@@ -7,7 +7,15 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"scope"
+		"scope",
+		"isSelfVariable",
+		"isSuperVariable",
+		"isThisContextVariable",
+		"isTempVectorTemp",
+		"isWritable",
+		"isCopying",
+		"isStoringTempVector",
+		"isUninitialized"
 	],
 	"name" : "UEVariableNode",
 	"type" : "normal"

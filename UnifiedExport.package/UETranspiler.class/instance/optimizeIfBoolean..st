@@ -1,6 +1,5 @@
 optimize
 optimizeIfBoolean: aRBMessageNode
-
 	| node receiver arguments |
 	node := UEConditionalNode new.
 	receiver := self visit: aRBMessageNode receiver.
@@ -9,15 +8,9 @@ optimizeIfBoolean: aRBMessageNode
 		node receiver: receiver
 	] ifFalse: [
 		node receiver: receiver not.
-		arguments := arguments reversed.
 	].
-	node trueBranch: (self
-			 visitInline: arguments first
-					   withArguments: #()
-					   required: true).
+	node trueBranch: (self visitInline: arguments first withArguments: #() required: true).
   arguments size = 2 ifTrue: [
-		node falseBranch: (self
-					   visitInline: aRBMessageNode arguments last
-					   withArguments: #()
-					   required: true) ].
+		node falseBranch: (self visitInline: arguments second withArguments: #() required: true)
+	].
 	^ node

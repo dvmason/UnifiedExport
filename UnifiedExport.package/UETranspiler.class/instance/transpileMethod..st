@@ -24,7 +24,7 @@ transpileMethod: aCompiledMethod
 				method := altClass compiledMethodAt: selector
 			] 
 		].
-		self visit: method ast
+		self visit: method ast.
+		self selector: aCompiledMethod selector forReceiver: class.
 	].
-	self selector: aCompiledMethod selector.
 	^ result
