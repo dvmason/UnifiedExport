@@ -1,9 +1,9 @@
 initialization
 initialize
-	typeChecker := UETypeChecker new transpiler: self.
-	currentScope := globalscope := typeChecker globalScope.
+	typeChecker := self class typeCheckerClass new.
+	astConverter := self class astConverterClass new typeChecker: typeChecker; transpiler: self.
 	classes := IdentityDictionary new.
 	methods := IdentityDictionary new.
-	selectors := Set new.
+	selectorsForPerform := Set with: #initialize.
 	methodsToTranspile := IdentitySet new.
 

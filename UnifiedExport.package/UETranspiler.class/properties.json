@@ -4,20 +4,14 @@
 	"category" : "UnifiedExport-Transpiler",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"OptimizedMessages"
-	],
+	"classvars" : [ ],
 	"instvars" : [
-		"typeChecker",
 		"classes",
 		"methods",
-		"selectors",
-		"currentClass",
 		"methodsToTranspile",
-		"methodNode",
-		"globalscope",
-		"currentScope",
-		"methodOrBlockNode"
+		"astConverter",
+		"typeChecker",
+		"selectorsForPerform"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"

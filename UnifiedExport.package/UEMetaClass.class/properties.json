@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DaveMason 1/8/2021 10:16",
+	"super" : "UEClass",
+	"category" : "UnifiedExport-Transpiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEMetaClass",
+	"type" : "normal"
+}

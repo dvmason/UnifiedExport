@@ -1,3 +1,3 @@
 code-critics
 ruleTempsReadBeforeWrittenRuleV1FalsePositive
-	^ #(#(#(#RGClassDefinition #(#UEClass1ForTest)) #'2020-11-24T21:46:54.942332-05:00') )
+	^ #(#(#(#RGPackageDefinition #(#'UnifiedExport-Tests')) #'2021-01-08T21:30:45.249608-05:00') )

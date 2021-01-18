@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "DaveMason 1/7/2021 15:13",
+	"super" : "Object",
+	"category" : "UnifiedExport-Transpiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OptimizedMessages"
+	],
+	"instvars" : [
+		"currentScope",
+		"transpiler",
+		"isAssigning",
+		"methodOrBlock",
+		"typeChecker"
+	],
+	"name" : "UEASTConverter",
+	"type" : "normal"
+}

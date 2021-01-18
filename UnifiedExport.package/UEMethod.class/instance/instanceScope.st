@@ -1,0 +1,3 @@
+accessing
+instanceScope
+	^ uEClass instanceScope

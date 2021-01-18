@@ -1,3 +1,3 @@
 code-critics
 ruleExtraBlockRuleV1FalsePositive
-	^ #(#(#(#RGClassDefinition #(#UEClass1ForTest)) #'2020-11-24T21:46:01.475044-05:00') )
+	^ #(#(#(#RGPackageDefinition #(#'UnifiedExport-Tests')) #'2021-01-08T21:30:54.115986-05:00') )

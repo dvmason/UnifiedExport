@@ -1,7 +1,7 @@
 transpiling
 selectorForPerform: selector
-	(selectors includes: selector) ifTrue: [ ^ self ].
-	selectors add: selector.
+	(selectorsForPerform includes: selector) ifTrue: [ ^ self ].
+	selectorsForPerform add: selector.
 	classes keysDo: [: class |
 		class instanceSide compiledMethodAt: selector ifPresent: [: method |
 			self addMethodToTranspile: method

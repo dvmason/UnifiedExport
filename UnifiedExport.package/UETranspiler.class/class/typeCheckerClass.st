@@ -1,0 +1,3 @@
+initialization
+typeCheckerClass
+	^ self subclassResponsibility

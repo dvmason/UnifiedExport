@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "UEVariable",
+	"category" : "UnifiedExport-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UEInstanceVariable",
+	"type" : "normal"
+}

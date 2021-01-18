@@ -1,3 +1,3 @@
 code-critics
 ruleNotEliminationRuleV1FalsePositive
-	^ #(#(#(#RGMethodDefinition #(#UEAstTest #testNot #false)) #'2020-12-28T09:52:50.042353-05:00') )
+	^ #(#(#(#RGPackageDefinition #(#'UnifiedExport-Tests')) #'2021-01-08T21:32:39.579662-05:00') )

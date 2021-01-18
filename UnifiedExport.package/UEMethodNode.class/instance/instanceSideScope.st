@@ -1,3 +1,0 @@
-accessing
-instanceSideScope
-	^ uEClass instanceSideScope

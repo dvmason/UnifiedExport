@@ -1,3 +1,3 @@
 testing - examples
 foo: value
-	^ 17
+	^ super test4: 17

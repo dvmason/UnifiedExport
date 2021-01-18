@@ -1,3 +1,3 @@
-as yet unclassified
+settings
 transpilerPlaceholderSelector
-	^ #transpilerPlaceholder
+	^ self subclassResponsibility

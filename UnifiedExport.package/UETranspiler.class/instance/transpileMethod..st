@@ -1,30 +1,25 @@
 transpiling
 transpileMethod: aCompiledMethod
-	| result class method altClass selector |
-	result := methods at: aCompiledMethod ifAbsentPut: [
-		method := aCompiledMethod.
+	| class methodToVisit altClass selector method ueClass |
+	^ methods at: aCompiledMethod ifAbsentPut: [
+		methodToVisit := aCompiledMethod.
 		altClass := nil.
-		class := method methodClass.
-		self class: class.
+		class := methodToVisit methodClass.
 		selector := aCompiledMethod selector.
-		methodNode := (UEMethodNode method: aCompiledMethod) class: currentClass.
-		currentScope := (class isInstanceSide ifTrue: [
-			methodNode instanceSideScope
-		] ifFalse: [
-			methodNode classSideScope
-		]) newMethodScope: selector.
+		method := (UEMethod method: aCompiledMethod) class: (self class: class).
 		(class classSide includesSelector: self class transpilerPlaceholderSelector) ifTrue: [
 			altClass := class instanceSide perform: self class transpilerPlaceholderSelector.
-			altClass := class isInstanceSide ifTrue: [
-					altClass instanceSide
-				] ifFalse: [
+			altClass := class isClassSide ifTrue: [
 					altClass classSide
+				] ifFalse: [
+					altClass instanceSide
 				].
 			(altClass includesSelector: selector) ifTrue: [
-				method := altClass compiledMethodAt: selector
+				methodToVisit := altClass compiledMethodAt: selector
 			] 
 		].
-		self visit: method ast.
-		self selector: aCompiledMethod selector forReceiver: class.
-	].
-	^ result
+		ueClass := self class: class.
+		ueClass addMethod: method.
+		self selector: selector forReceiver: ueClass.
+		astConverter visitMethod: methodToVisit ast as: method.
+	]

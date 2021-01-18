@@ -3,11 +3,13 @@
 	"super" : "Object",
 	"category" : "UnifiedExport-Tests-ClassesForTests",
 	"classinstvars" : [
-		"abc"
+		"abc",
+		"neverNilVar"
 	],
 	"pools" : [ ],
 	"classvars" : [
-		"ClassVar"
+		"ClassVar",
+		"NeverNilClassVar"
 	],
 	"instvars" : [
 		"test5"

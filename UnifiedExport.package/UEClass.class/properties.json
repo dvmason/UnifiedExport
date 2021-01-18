@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DaveMason 1/8/2021 10:13",
 	"super" : "Object",
 	"category" : "UnifiedExport-Transpiler",
 	"classinstvars" : [ ],
@@ -8,8 +8,10 @@
 	"instvars" : [
 		"class",
 		"classScope",
-		"instanceSideScope",
-		"classSideScope"
+		"instanceScope",
+		"otherSide",
+		"methods",
+		"superclass"
 	],
 	"name" : "UEClass",
 	"type" : "normal"

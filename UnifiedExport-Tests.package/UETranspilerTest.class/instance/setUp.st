@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	transpiler := UETranspiler new.
+	transpiler := UETestTranspiler new.
