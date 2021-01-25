@@ -1,0 +1,1 @@
+I am the return value from a method. I get bound to all the possible return values.

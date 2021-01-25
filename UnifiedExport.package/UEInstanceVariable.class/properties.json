@@ -1,6 +1,6 @@
 {
-	"commentStamp" : "",
-	"super" : "UEVariable",
+	"commentStamp" : "DaveMason 1/21/2021 22:35",
+	"super" : "UEAssignableVariable",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],

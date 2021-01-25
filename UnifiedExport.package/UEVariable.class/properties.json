@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "DaveMason 5/21/2020 13:06",
-	"super" : "UEConformable",
+	"commentStamp" : "DaveMason 1/19/2021 16:58",
+	"super" : "Object",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"name"
+	],
 	"name" : "UEVariable",
 	"type" : "normal"
 }

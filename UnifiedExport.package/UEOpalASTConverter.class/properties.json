@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "DaveMason 1/7/2021 15:13",
+	"super" : "Object",
+	"category" : "UnifiedExport-Transpiler",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OptimizedMessages"
+	],
+	"instvars" : [
+		"transpiler",
+		"isAssigning",
+		"typeChecker"
+	],
+	"name" : "UEOpalASTConverter",
+	"type" : "normal"
+}

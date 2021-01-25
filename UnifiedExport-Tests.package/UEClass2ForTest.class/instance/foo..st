@@ -1,3 +1,3 @@
 testing - examples
 foo: value
-	^ super test4: 17
+	^ super callWithOverride: 17

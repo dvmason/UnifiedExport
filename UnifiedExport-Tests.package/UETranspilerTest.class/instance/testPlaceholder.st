@@ -1,5 +1,5 @@
 tests
 testPlaceholder
 	| method |
-	method := transpiler transpile: UEClass1ForTest >> #test17.
+	method := transpiler transpile: UEClass1ForTest >> #methodWithPlaceHolderOverride.
 	self assert: transpiler selectors size equals: 1.

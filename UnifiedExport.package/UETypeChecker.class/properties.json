@@ -1,20 +1,11 @@
 {
-	"commentStamp" : "DaveMason 5/29/2020 22:52",
-	"super" : "RBProgramNodeVisitor",
+	"commentStamp" : "DaveMason 1/24/2021 09:46",
+	"super" : "Object",
 	"category" : "UnifiedExport-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"typeMap",
-		"transpiler",
-		"methodType",
-		"classType",
-		"classesToInitialize",
-		"currentScope",
-		"replacementMethods",
-		"methodsToType"
-	],
+	"instvars" : [ ],
 	"name" : "UETypeChecker",
 	"type" : "normal"
 }

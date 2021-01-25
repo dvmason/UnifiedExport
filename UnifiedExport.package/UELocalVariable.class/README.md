@@ -1,0 +1,1 @@
+I am a local variable. The method is analysed to see if there is any path along which I can be referenced before assignment. If not, I cannot be nil (unless explicitly assigned nil).

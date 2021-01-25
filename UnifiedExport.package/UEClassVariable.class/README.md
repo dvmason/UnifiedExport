@@ -1,0 +1,1 @@
+I am a class variable. Usually I am just assigned in the class initialize method. If not, I can be nil. (and even if so, I might be assigned nil)

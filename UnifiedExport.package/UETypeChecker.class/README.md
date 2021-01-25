@@ -1,3 +1,3 @@
-I walk an AST using the visitor pattern doing type inference as I go.
+I am the abstract TypeChecker.
 
-I call back the transpiler to tell it any classes that need to be transpiled and any selectors that need to be processed.
+I keep track of scopes, but any actual type checking or inferencing must be implemented in a subclass.

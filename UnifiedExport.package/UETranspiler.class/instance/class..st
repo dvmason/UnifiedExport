@@ -2,7 +2,7 @@ transpiling
 class: aClass
 	^ classes at: aClass ifAbsent: [
 		| class |
-		class := UEClass for: aClass globalScope: typeChecker globalScope.
+		class := UEClass for: aClass globalScope: globalScope.
 		classes at: aClass classSide put: class classSide.
 		classes at: aClass instanceSide put: class instanceSide.
 		self addInstanceAndClassMethodsFrom: aClass.

@@ -1,0 +1,3 @@
+tests
+methodWithPlaceHolderOverride
+	^ 42

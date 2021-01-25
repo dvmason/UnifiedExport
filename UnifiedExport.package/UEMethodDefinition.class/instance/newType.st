@@ -1,3 +1,3 @@
 type unification
 newType
-	^ UEParameter new
+	^ UEArgument new

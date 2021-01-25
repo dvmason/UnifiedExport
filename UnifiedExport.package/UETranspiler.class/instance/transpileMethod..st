@@ -1,25 +1,24 @@
 transpiling
 transpileMethod: aCompiledMethod
-	| class methodToVisit altClass selector method ueClass |
+	| methodToVisit selector method |
 	^ methods at: aCompiledMethod ifAbsentPut: [
 		methodToVisit := aCompiledMethod.
-		altClass := nil.
-		class := methodToVisit methodClass.
+		currentClass := self class: methodToVisit methodClass.
 		selector := aCompiledMethod selector.
-		method := (UEMethod method: aCompiledMethod) class: (self class: class).
-		(class classSide includesSelector: self class transpilerPlaceholderSelector) ifTrue: [
-			altClass := class instanceSide perform: self class transpilerPlaceholderSelector.
-			altClass := class isClassSide ifTrue: [
-					altClass classSide
-				] ifFalse: [
-					altClass instanceSide
-				].
+		method := (UEMethod method: aCompiledMethod) class: currentClass.
+		currentClass addMethod: method.
+		currentClass withSelector: self class transpilerPlaceholderSelector altClassDo: [: altClass |
 			(altClass includesSelector: selector) ifTrue: [
 				methodToVisit := altClass compiledMethodAt: selector
 			] 
 		].
-		ueClass := self class: class.
-		ueClass addMethod: method.
-		self selector: selector forReceiver: ueClass.
-		astConverter visitMethod: methodToVisit ast as: method.
+		currentScope := method instanceScope newMethodScope: methodToVisit ast selector.
+		currentScope put: UESelf new.
+		currentScope put: UEReturn new.
+		methodOrBlock := method.
+		astConverter visitMethod: methodToVisit ast.
+		(method statements isEmpty or: [method statements last isReturn not]) ifTrue: [
+			method addStatement: (UEReturnNode new expression: (self visitSelfNode: nil)).
+		].
+	 	method 
 	]

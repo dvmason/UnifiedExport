@@ -6,4 +6,4 @@ initialize
 	methods := IdentityDictionary new.
 	selectorsForPerform := Set with: #initialize.
 	methodsToTranspile := IdentitySet new.
-
+	currentScope := globalScope := UEGlobalScope new.

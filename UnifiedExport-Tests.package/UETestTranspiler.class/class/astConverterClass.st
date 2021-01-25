@@ -1,3 +1,3 @@
 as yet unclassified
 astConverterClass
-	^ UEASTConverter
+	^ UEOpalASTConverter

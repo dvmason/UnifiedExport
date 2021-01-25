@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "DaveMason 6/27/2020 20:10",
-	"super" : "UEType",
-	"category" : "UnifiedExport-Types",
+	"super" : "Object",
+	"category" : "UnifiedExport-Old-Types",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

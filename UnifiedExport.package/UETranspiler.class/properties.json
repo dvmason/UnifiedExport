@@ -11,7 +11,11 @@
 		"methodsToTranspile",
 		"astConverter",
 		"typeChecker",
-		"selectorsForPerform"
+		"selectorsForPerform",
+		"currentClass",
+		"currentScope",
+		"methodOrBlock",
+		"globalScope"
 	],
 	"name" : "UETranspiler",
 	"type" : "normal"
